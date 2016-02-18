@@ -47,7 +47,7 @@ public class CheatActivity extends AppCompatActivity {
             mIsCheater = savedInstanceState.getBoolean(KEY_CHEATER);
             mAnswerIsTrue = savedInstanceState.getBoolean(EXTRA_ANSWER_IS_TRUE, false);
             Log.v(TAG, "" + mIsCheater);
-            if (mIsCheater == true) { // if the User cheated
+            if (mIsCheater) { // if the User cheated
                 mAnswerTextView.setText(savedInstanceState.getString(CHEAT_ANSWER));
             }
         }
