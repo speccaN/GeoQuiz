@@ -4,6 +4,7 @@ public class Question {
 
     private int mTextResId;
     private boolean mAnswerTrue;
+    private boolean mIsCheater;
 
     public Question(int textResId, boolean answerTrue) {
         mTextResId = textResId;
